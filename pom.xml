@@ -16,6 +16,7 @@
 
     <modules>
         <module>fs-session-001</module>
+        <module>fs-session-002</module>
     </modules>
 
     <dependencyManagement>
