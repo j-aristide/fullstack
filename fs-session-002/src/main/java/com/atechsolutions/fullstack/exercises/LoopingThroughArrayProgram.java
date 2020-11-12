@@ -28,13 +28,15 @@ public class LoopingThroughArrayProgram {
         for(String student : students) {
             System.out.printf("\tHi %s, welcome to the class\n", student);
 
-            if("Vladimir".equalsIgnoreCase(student))
+            if("Angel".equalsIgnoreCase(student))
                 continue;
 
-            System.out.print("Take this syllabus");
+            System.out.println("Take this syllabus");
 
-            if("Naomi".equalsIgnoreCase(student))
+            if("Gusmanov".equalsIgnoreCase(student))
                 break;
+
+            System.out.println("Stop what you're doing");
         }
 
         // While Loop

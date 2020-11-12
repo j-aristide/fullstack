@@ -11,8 +11,7 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <groupId>com.atechsolutions</groupId>
-  <artifactId>fs-session-002</artifactId>
+  <artifactId>fs-session-003</artifactId>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -25,5 +24,10 @@
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+    </dependency>
+
   </dependencies>
 </project>

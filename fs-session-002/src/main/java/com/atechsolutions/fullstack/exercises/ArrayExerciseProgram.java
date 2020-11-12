@@ -53,5 +53,18 @@ public class ArrayExerciseProgram {
         // Arrays Utility
         System.out.println("\nArrays Utility\n");
         System.out.printf("\tLet's search for the location of %s: %s", "Oybek", Arrays.binarySearch(group1Clone, "Oybek"));
+
+
+        // Resizing an array
+        String items[] = {"Car", "Plane", "Boat"};
+
+        System.out.println("\n\nPre-Change:" + Arrays.asList(items));
+        items[0] = "Motorcycle";
+
+        System.out.println("Post-Change:" + Arrays.asList(items));
+
+        //items[4] = "Spaceship";
+
+        //System.out.println("Adding new item:" + Arrays.asList(items));
     }
 }
