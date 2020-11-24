@@ -2,7 +2,7 @@ package com.atechsolutions.fullstack.exercises.inheritance;
 
 import java.util.Date;
 
-public abstract class Employee {
+public abstract class Employee extends Object {
     private final String fname;
     private final String lname;
     private final String employeeNumber;

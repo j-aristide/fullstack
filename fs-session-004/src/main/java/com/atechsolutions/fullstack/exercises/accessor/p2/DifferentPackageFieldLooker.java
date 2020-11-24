@@ -1,10 +1,10 @@
 package com.atechsolutions.fullstack.exercises.accessor.p2;
 
-import com.atechsolutions.fullstack.exercises.accessor.p1.FieldAccess;
+import com.atechsolutions.fullstack.exercises.accessor.p1.Blueprint;
 
 public class DifferentPackageFieldLooker {
     public static void main(String[] args) {
-        FieldAccess access = new FieldAccess();
+        Blueprint access = new Blueprint();
         //System.out.println("Field: " + access.privateField);
         //System.out.println("Field: " + access.protectedField);
         //System.out.println("Field: " + access.defaultField);
