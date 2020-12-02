@@ -15,13 +15,13 @@ import java.util.TreeSet;
 public class SetExerciseProgram {
     public static void main(String args[]) {
         //hashSet();
-        //linkedHashSet();
-        treeSet();
+        linkedHashSet();
+        //treeSet();
     }
 
     public static void treeSet() {
         System.out.println("\nTreeSet:");
-        TreeSet<String> values = new TreeSet<>();
+        Set<String> values = new TreeSet<>();
         values.add("January");
         values.add("February");
         values.add("March");

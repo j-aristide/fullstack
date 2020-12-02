@@ -14,8 +14,8 @@ import java.util.List;
  */
 public class ListExerciseProgram {
     public static void main(String[] args) {
-        //arrayList();
-        linkedList();
+        arrayList();
+        //linkedList();
     }
 
     /**
@@ -87,9 +87,11 @@ public class ListExerciseProgram {
         // Removing data from a list
         System.out.println("\nRemoving Jean from the list\n");
         System.out.println("\tInitial values: " + values);
+        System.out.println("\tArrayList size: " + values.size());
         values.remove("Jean");
 
         System.out.println("\tAfter executing remove command" + values);
+        System.out.println("\tArrayList size: " + values.size());
 
         // Create List from Array using Arrays utility -- all functions of list apply to this
         List<String> list1 = Arrays.asList("Jean", "Oybek", "Tyler", "Angel");
