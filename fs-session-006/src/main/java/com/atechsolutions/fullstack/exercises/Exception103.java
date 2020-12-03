@@ -27,5 +27,9 @@ public class Exception103 {
         } catch (IOException ioException) {
             ioException.printStackTrace();
         }
+
+        ///////
+
+        System.out.println("operation");
     }
 }

@@ -7,7 +7,7 @@ public class Exception102 {
         // All Exceptions are derived from an Exception class please review API documentation
         // Exceptions fall under to main categories (Checked vs Unchecked)
 
-        // ArrayOutOfBoundsException is an example of an Unchecked exception -- no action is required and they extend RuntimeException class
+        // ArrayIndexOutOfBoundsException is an example of an Unchecked exception -- no action is required and they extend RuntimeException class
         // An FileNotFoundException, IOException are examples of  checked exceptions
 
 
@@ -23,7 +23,7 @@ public class Exception102 {
 
     // Two exceptions are being thrown, however, since FileNotFoundException is an extension of IOException, the FileNotFoundException can be omitted from
     // the method declaration as it becomes redundant.  FileNotFoundException is also an IOException.
-    public static void readAccountInfo(String path) throws FileNotFoundException, IOException {
+    public static void readAccountInfo(String path)throws FileNotFoundException, IOException {
         String line;
         BufferedReader reader = new BufferedReader(new FileReader(new File(path)));
         while ((line = reader.readLine()) != null) {

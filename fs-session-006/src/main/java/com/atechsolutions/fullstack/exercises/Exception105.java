@@ -13,7 +13,7 @@ public class Exception105 {
         readAccountInfo("path to text file here");
     }
 
-    public static void readAccountInfo (String path) throws AccountNotFoundException {
+    public static void readAccountInfo (String path)throws AccountNotFoundException {
         try {
 
             String line;

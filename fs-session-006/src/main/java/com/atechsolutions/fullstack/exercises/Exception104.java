@@ -18,8 +18,8 @@ public class Exception104 {
                 System.out.println(line);
 
             }
-        } catch (ArithmeticException | IOException fileNotFoundException) {
-            fileNotFoundException.printStackTrace();
+        } catch (ArithmeticException | IOException exception) {
+            exception.printStackTrace();
         }
     }
 }
