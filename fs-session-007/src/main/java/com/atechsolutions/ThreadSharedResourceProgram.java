@@ -43,7 +43,7 @@ class Processor extends Thread {
 }
 
 class ProcessorMonitor {
-    boolean running = true;
+    volatile boolean running = true;
 
     boolean isRunning() {
         return running;

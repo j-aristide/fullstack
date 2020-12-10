@@ -10,13 +10,16 @@ public class IntroToThreading {
         List<String> students = Arrays.asList("Vladimir", "John", "Nigel", "Logan", "Abraham", "Naomi", "Topher", "Akshat", "Heidi", "Matthew", "Jenny", "Jerome");
 
 
-        HelloThread runnable1 = new HelloThread("Papi", students);
+        Thread runnable1 = new Thread(new HelloRunnable(students));
         runnable1.start();
+
+        Thread.sleep(3000);
+        System.out.println("How now brown cow!");
         runnable1.join();
 
         System.out.println(Runtime.getRuntime().availableProcessors());
 
-        System.out.println("How now brown cow!");
+
     }
 
     static void print(List<String> students, long sleepTime) {

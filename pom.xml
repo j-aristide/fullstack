@@ -26,6 +26,11 @@
         <module>fs-session-005</module>
         <module>fs-session-006</module>
         <module>fs-session-007</module>
+        <module>fs-session-008</module>
+        <module>fs-session-009</module>
+        <module>fs-session-010</module>
+        <module>fs-session-011</module>
+        <module>fs-session-012</module>
     </modules>
 
     <dependencyManagement>
