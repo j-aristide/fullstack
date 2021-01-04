@@ -60,14 +60,14 @@ class BankAccount {
 
     void debit(double amount)throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
-        chill(1000);
+        //chill(1000);
 
         synchronized (this) {
             balance -= amount;
 
-            System.out.println("Debiting...");
+            System.out.println("Debiting..." + balance);
             notify();
-            chill(5000);
+            chill(1000);
             System.out.println("Debited....");
         }
     }
@@ -75,9 +75,13 @@ class BankAccount {
     void credit(double amount)throws InterruptedException {
         System.out.println("Performing credit");
         synchronized (this) {
-            System.out.println("On Return");
+            chill(1000);
+
+            System.out.println("About to credit current balance is" + balance);
+            wait();
             balance += amount;
-            System.out.println("Performed credit");
+
+            System.out.println("Performed credit " + balance);
         }
     }
 
