@@ -9,6 +9,10 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreProgram {
 
     public static void main(String[] args) {
+
+        // Create 2 bathrooms
+        // Initialize Gas station with 2 bathrooms
+
         GasStation gasStation = new GasStation(5);
         ExecutorService service = Executors.newFixedThreadPool(10);
         for(int i=0; i<25; i++) {
