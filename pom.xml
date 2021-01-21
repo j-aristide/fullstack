@@ -31,6 +31,7 @@
         <module>fs-session-010</module>
         <module>fs-session-011</module>
         <module>fs-session-012</module>
+        <module>fs-session-webapp</module>
     </modules>
 
     <dependencyManagement>
